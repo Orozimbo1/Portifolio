@@ -19,7 +19,7 @@ export default function Home() {
       <main className='bg-white dark:bg-slate-800 px-10 md:px-20 lg:px-40'>
         <section className=" min-h-screen">
             <nav className='py-10 mb-12 flex justify-between'>
-              <h1 className='text-xl font-burtons dark:text-white md:text-2xl lg:text-3xl'>matheusorozimbo</h1>
+              <h1 className='text-xl font-burtons dark:text-white md:text-2xl lg:text-3xl'>DevelopedByOrozimbo1</h1>
               <ul className='flex items-center'>
                 <li>
                   <BsFillMoonStarsFill className='cursor-pointer text-2xl md:text-4xl dark:text-white' onClick={() => setDarkMode(!darkMode)} />
@@ -28,13 +28,13 @@ export default function Home() {
               </ul>
             </nav>
             <div className='text-center p-10'>
-              <h2 className='text-2xl py-2 text-teal-600 font-medium md:text-4xl lg:text-6xl dark:text-white'>Matheus Orozimbo</h2>
+              <h2 className='text-2xl py-2 text-teal-500 font-medium md:text-4xl lg:text-6xl'>Matheus Orozimbo</h2>
               <h3 className='text-1xl py-2 md:text-2xl lg:text-4xl dark:text-white'>Desenvolvedor Full Stack</h3>
               <p className='text-md py-5 leading-7 text-gray-500 md:text-xl lg:text-2xl dark:text-white'>
                 Algumacoisasobremimalgum acoisasobremimalguma  coisa sobremimalgumacoisasobr emimalgumacois asobremimalgumacoisaso bremimalgumacoisasobremim
               </p>
             </div>
-            <div className='text-4xl flex justify-center gap-10 py-3 text-gray-600 dark:text-white'>
+            <div className='text-4xl flex justify-center gap-10 py-3 text-gray-600 dark:text-white md:text-5xl lg:text-6xl'>
               <AiFillLinkedin />
               <AiFillGithub />
             </div>
@@ -56,7 +56,7 @@ export default function Home() {
             <div className='md:flex gap-10 justify-center flex-wrap'>
               <div className='text-center shadow-lg p-5 my-5 dark:bg-white'>
                 {/* <Image src={imagemdoqueeufaço} layout="fill" objectFit="cover" /> */}
-                <div className='mx-auto h-40 w-40 bg-slate-700 rounded-md my-10 md:h-52 md:w-52 lg:h-60 lg:w-60 dark:bg-neutral-500'></div>
+                <div className='mx-auto h-40 w-40 rounded-md my-10 md:h-52 md:w-52 lg:h-60 lg:w-60 bg-teal-500'></div>
                 <h3 className='text-lg font-medium pt-8 pb-2 md:text-2xl lg:text-3xl'>
                   Titulo de uma area que faço
                 </h3>
@@ -74,7 +74,7 @@ export default function Home() {
               </div>
               <div className='text-center shadow-lg p-5 my-5 dark:bg-white'>
                 {/* <Image src={imagemdoqueeufaço} layout="fill" objectFit="cover" /> */}
-                <div className='mx-auto h-40 w-40 bg-slate-700 rounded-md my-10 md:h-52 md:w-52 lg:h-60 lg:w-60 dark:bg-neutral-500'></div>
+                <div className='mx-auto h-40 w-40 bg-teal-500 rounded-md my-10 md:h-52 md:w-52 lg:h-60 lg:w-60 '></div>
                 <h3 className='text-lg font-medium pt-8 pb-2 md:text-2xl lg:text-3xl '>
                   Titulo de uma area que faço
                 </h3>
@@ -92,7 +92,7 @@ export default function Home() {
               </div>
               <div className='text-center shadow-lg p-5 my-5 dark:bg-white'>
                 {/* <Image src={imagemdoqueeufaço} layout="fill" objectFit="cover" /> */}
-                <div className='mx-auto h-40 w-40 bg-slate-700 rounded-md my-10 md:h-52 md:w-52 lg:h-60 lg:w-60 dark:bg-neutral-500'></div>
+                <div className='mx-auto h-40 w-40 bg-teal-500 rounded-md my-10 md:h-52 md:w-52 lg:h-60 lg:w-60 '></div>
                 <h3 className='text-lg font-medium pt-8 pb-2 md:text-2xl lg:text-3xl'>
                   Titulo de uma area que faço
                 </h3>
@@ -125,16 +125,16 @@ export default function Home() {
           </div>
           <div className='flex flex-col items-center gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-3/12 flex-1'>
-              {/* <Image src={Imagemdosmeuprojetos} className='rounded-sm object-cover bg-slate-700' width={'100%'} heigth={'100%'} layout="responsive"/> */}
-              <div className='rounded-sm object-cover bg-slate-700 w-80 h-80 dark:bg-neutral-500'></div>
+              {/* <Image src={Imagemdosmeuprojetos} className='rounded-sm object-cover bg-teal-500' width={'100%'} heigth={'100%'} layout="responsive"/> */}
+              <div className='rounded-sm object-cover bg-teal-500 w-80 h-80 '></div>
             </div>
             <div className='basis-3/12 flex-1'>
-              {/* <Image src={Imagemdosmeuprojetos} className='rounded-sm object-cover bg-slate-700' width={'100%'} heigth={'100%'} layout="responsive"/> */}
-              <div className='rounded-sm object-cover bg-slate-700 w-80 h-80 dark:bg-neutral-500'></div>
+              {/* <Image src={Imagemdosmeuprojetos} className='rounded-sm object-cover bg-teal-500' width={'100%'} heigth={'100%'} layout="responsive"/> */}
+              <div className='rounded-sm object-cover bg-teal-500 w-80 h-80 '></div>
             </div>
             <div className='basis-3/12 flex-1'>
-              {/* <Image src={Imagemdosmeuprojetos} className='rounded-sm object-cover bg-slate-700' width={'100%'} heigth={'100%'} layout="responsive"/> */}
-              <div className='rounded-sm object-cover bg-slate-700 w-80 h-80 dark:bg-neutral-500'></div>
+              {/* <Image src={Imagemdosmeuprojetos} className='rounded-sm object-cover bg-teal-500' width={'100%'} heigth={'100%'} layout="responsive"/> */}
+              <div className='rounded-sm object-cover bg-teal-500 w-80 h-80 '></div>
             </div>
           </div>
         </section>
