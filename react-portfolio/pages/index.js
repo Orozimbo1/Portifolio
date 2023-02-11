@@ -55,8 +55,9 @@ export default function Home() {
             </p>
             <div className='md:flex gap-10 justify-center flex-wrap'>
               <div className='text-center shadow-lg p-5 my-5 dark:bg-white'>
-                {/* <Image src={imagemdoqueeufaço} layout="fill" objectFit="cover" /> */}
-                <div className='mx-auto h-40 w-40 rounded-md my-10 md:h-52 md:w-52 lg:h-60 lg:w-60 bg-teal-500'></div>
+                <div className='mx-auto h-40 w-40 rounded-md my-10 md:h-52 md:w-52 lg:h-60 lg:w-60'>
+                  <Image src={dev} className=''/>
+                </div>
                 <h3 className='text-lg font-medium pt-8 pb-2 md:text-2xl lg:text-3xl'>
                   Front end
                 </h3>
@@ -92,8 +93,9 @@ export default function Home() {
                 </p>
               </div>
               <div className='text-center shadow-lg p-5 my-5 dark:bg-white'>
-                {/* <Image src={imagemdoqueeufaço} layout="fill" objectFit="cover" /> */}
-                <div className='mx-auto h-40 w-40 rounded-md my-10 md:h-52 md:w-52 lg:h-60 lg:w-60 bg-teal-500'></div>
+                <div className='mx-auto h-40 w-40 rounded-md my-10 md:h-52 md:w-52 lg:h-60 lg:w-60'>
+                  <Image src={dev} />
+                </div>
                 <h3 className='text-lg font-medium pt-8 pb-2 md:text-2xl lg:text-3xl'>
                   Back end
                 </h3>
@@ -123,8 +125,9 @@ export default function Home() {
                 </p>
               </div>
               <div className='text-center shadow-lg p-5 my-5 dark:bg-white'>
-                {/* <Image src={imagemdoqueeufaço} layout="fill" objectFit="cover" /> */}
-                <div className='mx-auto h-40 w-40 rounded-md my-10 md:h-52 md:w-52 lg:h-60 lg:w-60 bg-teal-500'></div>
+                <div className='mx-auto h-40 w-40 rounded-md my-10 md:h-52 md:w-52 lg:h-60 lg:w-60'>
+                  <Image src={dev} />
+                </div>
                 <h3 className='text-lg font-medium pt-8 pb-2 md:text-2xl lg:text-3xl'>
                   Banco do dados
                 </h3>
@@ -176,26 +179,81 @@ export default function Home() {
           <div>
             <h3 className='text-2xl py-1 md:text-3xl dark:text-white'>Portfolio</h3>
             <p className='text-md leading-7 py-2 md:text-xl lg:text-2xl dark:text-white'>
-              Um texto descrevendo o que e meu portfolio
-              Um texto descrevendo o que e meu portfolio
-              Um texto descrevendo o que e meu portfolio
-              Um texto descrevendo o que e meu portfolio
-              Um texto descrevendo o que e meu portfolio
-              Um texto descrevendo o que e meu portfolio
+              
             </p>
           </div>
           <div className='flex flex-col items-center gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-3/12 flex-1'>
-              {/* <Image src={Imagemdosmeuprojetos} className='rounded-sm object-cover bg-teal-500' width={'100%'} heigth={'100%'} layout="responsive"/> */}
-              <div className='rounded-sm object-cover bg-teal-500 w-80 h-80 '></div>
+              <div className='w-full text-center shadow-lg p-5 my-5 dark:bg-white'>
+                <Image src={dev} className='rounded-sm object-cover bg-teal-500' width={'100%'} heigth={'100%'} layout="responsive"/>
+                <div className='text-start py-3'>
+                  <h3>Título do projeto</h3>
+                  <p>Algo sobre o projeto</p>
+                  <p>Algo sobre o projeto</p>
+                  <p>Algo sobre o projeto</p>
+                  <p>Algo sobre o projeto</p>
+                </div>
+              </div>
             </div>
             <div className='basis-3/12 flex-1'>
-              {/* <Image src={Imagemdosmeuprojetos} className='rounded-sm object-cover bg-teal-500' width={'100%'} heigth={'100%'} layout="responsive"/> */}
-              <div className='rounded-sm object-cover bg-teal-500 w-80 h-80 '></div>
+              <div className='w-full text-center shadow-lg p-5 my-5 dark:bg-white'>
+                <Image src={dev} className='rounded-sm object-cover bg-teal-500' width={'100%'} heigth={'100%'} layout="responsive"/>
+                <div className='text-start py-3'>
+                  <h3>Título do projeto</h3>
+                  <p>Algo sobre o projeto</p>
+                  <p>Algo sobre o projeto</p>
+                  <p>Algo sobre o projeto</p>
+                  <p>Algo sobre o projeto</p>
+                </div>
+              </div>
             </div>
             <div className='basis-3/12 flex-1'>
-              {/* <Image src={Imagemdosmeuprojetos} className='rounded-sm object-cover bg-teal-500' width={'100%'} heigth={'100%'} layout="responsive"/> */}
-              <div className='rounded-sm object-cover bg-teal-500 w-80 h-80 '></div>
+              <div className='w-full text-center shadow-lg p-5 my-5 dark:bg-white'>
+                <Image src={dev} className='rounded-sm object-cover bg-teal-500' width={'100%'} heigth={'100%'} layout="responsive"/>
+                <div className='text-start py-3'>
+                  <h3>Título do projeto</h3>
+                  <p>Algo sobre o projeto</p>
+                  <p>Algo sobre o projeto</p>
+                  <p>Algo sobre o projeto</p>
+                  <p>Algo sobre o projeto</p>
+                </div>
+              </div>
+            </div>
+            <div className='basis-3/12 flex-1'>
+              <div className='w-full text-center shadow-lg p-5 my-5 dark:bg-white'>
+                <Image src={dev} className='rounded-sm object-cover bg-teal-500' width={'100%'} heigth={'100%'} layout="responsive"/>
+                <div className='text-start py-3'>
+                  <h3>Título do projeto</h3>
+                  <p>Algo sobre o projeto</p>
+                  <p>Algo sobre o projeto</p>
+                  <p>Algo sobre o projeto</p>
+                  <p>Algo sobre o projeto</p>
+                </div>
+              </div>
+            </div>
+            <div className='basis-3/12 flex-1'>
+              <div className='w-full text-center shadow-lg p-5 my-5 dark:bg-white'>
+                <Image src={dev} className='rounded-sm object-cover bg-teal-500' width={'100%'} heigth={'100%'} layout="responsive"/>
+                <div className='text-start py-3'>
+                  <h3>Título do projeto</h3>
+                  <p>Algo sobre o projeto</p>
+                  <p>Algo sobre o projeto</p>
+                  <p>Algo sobre o projeto</p>
+                  <p>Algo sobre o projeto</p>
+                </div>
+              </div>
+            </div>
+            <div className='basis-3/12 flex-1'>
+              <div className='w-full text-center shadow-lg p-5 my-5 dark:bg-white'>
+                <Image src={dev} className='rounded-sm object-cover bg-teal-500' width={'100%'} heigth={'100%'} layout="responsive"/>
+                <div className='text-start py-3'>
+                  <h3>Título do projeto</h3>
+                  <p>Algo sobre o projeto</p>
+                  <p>Algo sobre o projeto</p>
+                  <p>Algo sobre o projeto</p>
+                  <p>Algo sobre o projeto</p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
