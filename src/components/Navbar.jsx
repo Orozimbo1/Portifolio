@@ -6,10 +6,10 @@ const Navbar = () => {
 
   const menuLinks = [
     { name: "HOME", link: "#home" },
-    { name: "ABOUT", link: "#about" },
-    { name: "SKILLS", link: "#skills" },
-    { name: "PROJECTS", link: "#projects" },
-    { name: "CONTACTS", link: "#contacts" },
+    { name: "SOBRE", link: "#about" },
+    { name: "HABILIDADES", link: "#skills" },
+    { name: "PROJETOS", link: "#projects" },
+    { name: "CONTATO", link: "#contacts" },
   ]
 
   useEffect(() => {

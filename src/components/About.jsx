@@ -4,22 +4,22 @@ import aboutImg from '../assets/images/about.png'
 
 const About = () => {
   const info = [
-    {text: 'Years experience', count: '01'},
-    {text: 'Completed projects', count: '04'}
+    {text: 'Anos de experiência', count: '02'},
+    {text: 'Projetos completos', count: '07'}
   ]
 
   return (
     <section id='about' className='py-10 text-white'>
       <div className='text-center mt-8'>
         <h3 className='text-4xl font-semibold'>
-          About <span className='text-cyan-600'>Me</span>
+          Sobre <span className='text-cyan-600'>mim</span>
         </h3>
-        <p className='text-gray-400 my-3 text-lg'>My introduction</p>
+        <p className='text-gray-400 my-3 text-lg'>Introdução</p>
         <div className='flex lg:flex-row flex-col-reverse items-center lg:gap-6 gap-12 px-10 max-w-6xl mx-auto'>
           <div className='p-2'>
             <div className='text-gray-300 my-3'>
               <p className='text-justify leading-7 w-11/12 mx-auto'>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, ipsam architecto repellat debitis molestias nihil et magni, fugit, ea dignissimos inventore doloremque accusamus eos rerum incidunt. Veniam reprehenderit asperiores dolores
+                Desenvolvedor Full Statck com mais de 2 anos de experiência em desenvolvimento Web: Front-end e back-end. Utilizando de tecnologias como Javascript, React.js, Next.js, Tailwind, Bootstrap, Node.js, Python, Flask, Django , Firebase(Google) e os bancos de dados MongoDb, PostgreSQL, MySQL.
               </p>
             </div>
             <div className='flex items-center mt-10 gap-7'>

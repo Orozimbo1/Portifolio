@@ -17,13 +17,13 @@ const Hero = () => {
         <div className='lg:text-left text-center'>
           <h1 className='lg:text-5xl text-2xl lg:leading-normal leading-10 text-white font-bold'>
             <span className='text-cyan-600 lg:text-6xl text-5xl'>
-              Hello!  
+              Olá!  
               <br />
             </span>
-            My name is <span>Matheus Orozimbo</span>
+            Meu nome é <span>Matheus Orozimbo</span>
           </h1>
-          <h4 className='lg:text-2xl text-lg lg:leading-normal leading-10 mt-4 font-bold text-gray-600'>Full Stack Developer</h4>
-          <button className='btn-primary mt-8'>Contact Me</button>
+          <h4 className='lg:text-2xl text-lg lg:leading-normal leading-10 mt-4 font-bold text-gray-600'>Desenvolvedor Full Stack</h4>
+          <button className='btn-primary mt-8' disabled>Entre em contato</button>
           <div className='mt-8 text-3xl flex items-center lg:justify-start justify-center gap-5'>
             {
               social_media?.map((media, i) => (
