@@ -13,9 +13,8 @@ const Contact = () => {
     <section id='contacts' className='py-10 px-3 text-white'>
       <div className='text-center mt-8'>
         <h3 className='text-4xl font-semibold'>
-          Entre <span className='text-cyan-600'>Contato</span>
+          Entre em <span className='text-cyan-600'>Contato</span>
         </h3>
-        <p className='text-gray-400 mt-3 text-lg'>Get in touch</p>
         <div className='mt-16 flex lg:flex-row flex-col gap-6 max-w-5xl bg-gray-800 lg:p-6 p-2 rounded-lg mx-auto'>
           {/* <form className='flex flex-col flex-1 gap-5'>
             <input type="text" placeholder='Your name' />

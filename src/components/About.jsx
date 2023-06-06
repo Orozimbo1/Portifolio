@@ -1,6 +1,6 @@
 import React from 'react'
 
-import aboutImg from '../assets/images/about.png'
+import avatar from '../assets/images/avatar-2.png'
 
 const About = () => {
   const info = [
@@ -40,7 +40,7 @@ const About = () => {
           </div>
           <div className='flex-1 lg:mt-0 mt-6 flex justify-center items-center'>
               <div className='lg:w-96 h-full relative sm:w-10/12 w-11/12 max-w-sm aboutImg'>
-                <img src={aboutImg} alt="" className='w-full object-cover bg-cyan-600 rounded-xl' />
+                <img src={avatar} alt="" className='w-full object-cover bg-cyan-600 rounded-xl' />
               </div>
           </div>
         </div>

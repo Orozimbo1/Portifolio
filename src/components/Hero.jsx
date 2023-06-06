@@ -1,6 +1,6 @@
 import React from 'react'
 
-import hero from '../assets/images/hero.png'
+import avatar from '../assets/images/avatar-5.png'
 
 const Hero = () => {
   const social_media = [
@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <section id='home' className='min-h-screen flex py-10 lg:flex-row flex-col items-center'>
       <div className='flex-1 flex items-center justify-center h-full'>
-        <img src={hero} alt="" className='lg:w-11/12 h-full object-cover'/>
+        <img src={avatar} alt="" className='lg:w-11/12 h-full object-cover'/>
       </div>
       <div className='flex-1'>
         <div className='lg:text-left text-center'>
