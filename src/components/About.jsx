@@ -2,6 +2,8 @@ import React from 'react'
 
 import avatar from '../assets/images/avatar-2.png'
 
+import curriculo from '../assets/Curriculo_MatheusOrozimbo.pdf'
+
 const About = () => {
   const info = [
     {text: 'Anos de experiência', count: '02'},
@@ -32,7 +34,7 @@ const About = () => {
                   ))
               }
             </div>
-            <a href="./src/assets/Curriculo_MatheusOrozimbo.pdf">
+            <a href={curriculo} download>
               <button className='btn-primary mt-7'>
                 Download CV
               </button>
