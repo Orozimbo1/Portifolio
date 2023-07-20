@@ -12,6 +12,8 @@ import project4 from '../assets/images/react-miniblog.jpg'
 import project5 from '../assets/images/onlineshop.jpg'
 import project6 from '../assets/images/secret-word.jpg'
 import project7 from '../assets/images/youtube-clone.jpg'
+import project8 from '../assets/images/ageCalculator.jpg'
+import project9 from '../assets/images/news_homepage.jpg'
 
 const Project = () => {
   const projects = [
@@ -21,7 +23,9 @@ const Project = () => {
     {img: project4, name: 'MiniBlog', link_github: 'https://github.com/Orozimbo1/React-miniblog', live_demo: 'https://react-miniblog-blond.vercel.app/'},
     {img: project5, name: 'Online Shop', link_github: 'https://github.com/Orozimbo1/OnlineShop', live_demo: 'https://online-shop-marketplace.vercel.app/'},
     {img: project6, name: 'Secret Word', link_github: 'https://github.com/Orozimbo1/Secret_Word', live_demo: 'https://react-secretword.netlify.app'},
-    {img: project7, name: 'Youtube Clone', link_github: 'https://github.com/Orozimbo1/YouTube_Clone', live_demo: 'https://youtubeclone-mo.netlify.app'}
+    {img: project7, name: 'Youtube Clone', link_github: 'https://github.com/Orozimbo1/YouTube_Clone', live_demo: 'https://youtubeclone-mo.netlify.app'},
+    {img: project8, name: 'Age Calculator', link_github: 'https://github.com/Orozimbo1/ageCaculator', live_demo: 'orozimbo1.github.io/ageCaculator/'},
+    {img: project9, name: 'News Homepage', link_github: 'https://github.com/Orozimbo1/news_Homepage', live_demo: 'https://orozimbo1.github.io/news_Homepage/'}
   ]
 
   return (
@@ -52,8 +56,8 @@ const Project = () => {
         >
           {projects?.map((project, i) => (
             <SwiperSlide key={i}>
-              <div className='h-fit w-full p-4 bg-slate-700 rounded-xl'>
-                <img src={project.img} alt="" className='rounded-lg' />
+              <div className='h-80 w-full p-4 bg-slate-700 rounded-xl'>
+                <img src={project.img} alt={project.name} className='rounded-lg h-48 w-full' />
                 <h3 className='text-xl my-4'>{project.name}</h3>
                 <div className='flex gap-3'>
                   <a href={project.link_github} className='text-cyan-600 bg-gray-800 p-2 inline-block' target='_blank'>Link Github</a>
