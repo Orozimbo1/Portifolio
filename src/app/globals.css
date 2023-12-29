@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2rem;
+  height: 50px;
+  padding: 0 2rem;
+  color: white;
+  background-color: rgb(5, 5, 173);
+}
+.intro {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 75vh;
+  background-color: blue;
+  padding: 5vh 5vw;
+  color: white;
+}
+.text {
+  width: 28vw;
+  font-size: 1.2rem;
+  line-height: 150%;
+  
+  span {
+    font-size: 1.8rem;
+    color: rgb(180, 180, 180);
+  }
+}
+.image {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  background-color: yellow;
+}
+.info {
+  width: 28vw;
+
+  h1 {
+    font-size: 2.2rem;
+  }
+}
+.skills {
+  position: absolute;
+  bottom: -45px;
+  left: 0;
+  display: flex;
+  justify-content: space-evenly;
+  height: 90px;
+  width: 100%;
+  border-radius: 50%;
+  background-color: blue;
+}
+.skill {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-color: yellow;
+  transition: .3s;
+}
+.skill:hover {
+  background-color: black;
+  transform: scale(1.2);
+}
