@@ -2,12 +2,13 @@ import React from 'react'
 
 const Skills = () => {
   const skills = [
-    {logo: 'logo-html5', level: 'Advanced', count: 76},
-    {logo: 'logo-css3', level: 'Intermediate', count: 60},
-    {logo: 'logo-javascript', level: 'Advanced', count: 80},
-    {logo: 'logo-nodejs', level: 'Intermediate', count: 70},
-    {logo: 'logo-react', level: 'Advanced', count: 80},
-    {logo: 'logo-python', level: 'Intermediate', count: 65}
+    {logo: 'logo-html5', name: 'HTML5', level: 'Avançado', count: 26},
+    {logo: 'logo-css3', name: 'CSS3', level: 'Avançado', count: 40},
+    {logo: 'logo-sass', name: 'Sass', level: 'Básico', count: 45},
+    {logo: 'logo-javascript', name: 'JavaScript', level: 'Avançado', count: 80},
+    {logo: 'logo-react', name: 'React', level: 'Avançado', count: 80},
+    {logo: 'logo-nodejs', name: 'NodeJs', level: 'Intermediário', count: 70},
+    {logo: 'logo-python', name: 'Python', level: 'Básico', count: 15},
   ]
 
   return (
@@ -25,6 +26,7 @@ const Skills = () => {
                   <ion-icon name={skill.logo}></ion-icon>
                 </div>
               </div>
+              <p className='text-lg mt-3'>{skill.name}</p>
               <p className='text-xl mt-3'>{skill.level}</p>
             </div>
           ))}
