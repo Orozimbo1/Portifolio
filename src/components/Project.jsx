@@ -29,12 +29,12 @@ const Project = () => {
   ]
 
   return (
-    <section id='projects' className='py-10 text-white'>
+    <section id='projects' className='py-10 text-green-500'>
       <div className='text-center mb-4'>
         <h3 className='text-4xl font-semibold'>
-          Meus <span className='text-cyan-600'>Projetos</span>
+          Meus <span className='text-teal-700'>Projetos</span>
         </h3>
-        <p className='text-gray-400 mt-3 text-lg'>Meus incríveis trabalhos</p>
+        <p className='text-teal-700 mt-3 text-lg'>Meus incríveis trabalhos</p>
       </div>
       <div className='lg:w-11/12 w-full mx-auto'>
         <Swiper 
@@ -56,12 +56,12 @@ const Project = () => {
         >
           {projects?.map((project, i) => (
             <SwiperSlide key={i}>
-              <div className='h-80 w-full p-4 bg-slate-700 rounded-xl'>
+              <div className=' w-full p-4 bg-white shadow-md rounded-xl'>
                 <img src={project.img} alt={project.name} className='rounded-lg h-48 w-full' />
                 <h3 className='text-xl my-4'>{project.name}</h3>
                 <div className='flex gap-3'>
-                  <a href={project.link_github} className='text-cyan-600 bg-gray-800 p-2 inline-block' target='_blank'>Link Github</a>
-                  <a href={project.live_demo} className='text-cyan-600 bg-gray-800 p-2 inline-block' target='_blank'>Live Demo</a>
+                  <a href={project.link_github} className='text-white bg-green-500 p-2 inline-block' target='_blank'>Link Github</a>
+                  <a href={project.live_demo} className='text-teal-700 bg-gray-100 border border-teal-700 p-2 inline-block' target='_blank'>Live Demo</a>
                 </div>
               </div>
             </SwiperSlide>
