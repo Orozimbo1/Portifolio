@@ -4,9 +4,12 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import "./index.css";
 
+import { Analytics } from "./components";
+
 ReactDOM.render(
   <BrowserRouter>
     <App />
+    <Analytics />
   </BrowserRouter>,
   document.getElementById("root")
 );
