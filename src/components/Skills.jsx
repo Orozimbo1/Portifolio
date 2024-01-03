@@ -9,12 +9,14 @@ const Skills = () => {
     {logo: 'logo-react', name: 'React', level: 'Avançado', count: 80},
     {logo: 'logo-nodejs', name: 'NodeJs', level: 'Intermediário', count: 70},
     {logo: 'logo-python', name: 'Python', level: 'Básico', count: 15},
+    {logo: 'logo-firebase', name: 'Firebase', level: 'Básico', count: 55},
+    {logo: 'logo-pwa', name: 'PWA', level: 'Básico', count: 85},
   ]
 
   return (
     <section id='skills' className='py-10 relative'>
       <div className='mt-10 text-teal-700 text-center'>
-        <h3 className='text-4xl font-semibold text-green-500'>Minhas <span className='text-teal-700'>Habilidades</span></h3>
+        <h3 className='text-3xl md:text-4xl font-semibold text-green-500'>Minhas <span className='text-teal-700'>Habilidades</span></h3>
         <p className='text-teal-700 mt-3 text-lg'>Meus conhecimentos</p>
         <div className="flex items-center justify-center mt-12 gap-10 flex-wrap">
           {skills.map((skill, i) => (

@@ -20,8 +20,8 @@ const About = () => {
         <div className='flex lg:flex-row flex-col-reverse items-center lg:gap-6 gap-12 px-10 max-w-6xl mx-auto'>
           <div className='p-2'>
             <div className='text-teal-800 my-3'>
-              <p className='text-justify leading-7 w-10/12'>
-                Desenvolvedor Full Statck com mais de 2 anos de experiência em desenvolvimento Web: Front-end e back-end. Utilizando de tecnologias como Javascript, React.js, Next.js, Tailwind, Bootstrap, Node.js, Python, Flask, Django , Firebase(Google) e os bancos de dados MongoDb, PostgreSQL, MySQL.
+              <p className='text-justify leading-7 w-full lg:w-10/12'>
+                Olá! Sou um desenvolvedor front-end dedicado a transformar conceitos em experiências digitais envolventes. Com habilidades em HTML, CSS e JavaScript, busco a harmonia entre design e funcionalidade. Explore meu portfólio e descubra como contribuo para a criação de interfaces intuitivas e visualmente impactantes.
               </p>
             </div>
             <div className='flex items-center mt-10 gap-7'>
