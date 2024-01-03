@@ -45,12 +45,16 @@ const Project = () => {
               slidesPerView: 1,
               spaceBetween: 40
             },
-            768: {
-              slidesPerView: 3,
+            550: {
+              slidesPerView: 2,
               spaceBetween: 40
             },
             1440: {
-              slidesPerView: 4,
+              slidesPerView: 3,
+              spaceBetween: 40
+            },
+            2560: {
+              slidesPerView: 5,
               spaceBetween: 40
             },
           }} 
