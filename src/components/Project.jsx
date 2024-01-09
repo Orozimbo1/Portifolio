@@ -13,7 +13,7 @@ import project5 from '../assets/images/onlineshop.jpg'
 import project6 from '../assets/images/InvestFacil.png'
 import project7 from '../assets/images/youtube-clone.jpg'
 import project8 from '../assets/images/ageCalculator.jpg'
-import project9 from '../assets/images/news_homepage.jpg'
+import project9 from '../assets/images/electrum.png'
 
 const Project = () => {
   const projects = [
@@ -25,7 +25,7 @@ const Project = () => {
     {img: project6, name: 'InvestFacil', link_github: 'https://github.com/Orozimbo1/InvestFacil', live_demo: 'https://investfacil.vercel.app/'},
     {img: project7, name: 'Youtube Clone', link_github: 'https://github.com/Orozimbo1/YouTube_Clone', live_demo: 'https://youtubeclone-mo.netlify.app'},
     {img: project8, name: 'Age Calculator', link_github: 'https://github.com/Orozimbo1/ageCaculator', live_demo: 'orozimbo1.github.io/ageCaculator/'},
-    {img: project9, name: 'News Homepage', link_github: 'https://github.com/Orozimbo1/news_Homepage', live_demo: 'https://orozimbo1.github.io/news_Homepage/'}
+    {img: project9, name: 'Electrum Ecommerce', link_github: 'https://github.com/Orozimbo1/electrum', live_demo: 'https://orozimbo1.github.io/electrum/'}
   ]
 
   return (
