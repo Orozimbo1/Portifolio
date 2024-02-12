@@ -1,17 +1,7 @@
 import React from 'react'
+import { skills } from '../utils'
 
 const Skills = () => {
-  const skills = [
-    {logo: 'logo-html5', name: 'HTML5', level: 'Avançado', count: 26},
-    {logo: 'logo-css3', name: 'CSS3', level: 'Avançado', count: 40},
-    {logo: 'logo-sass', name: 'Sass', level: 'Básico', count: 45},
-    {logo: 'logo-javascript', name: 'JavaScript', level: 'Avançado', count: 80},
-    {logo: 'logo-react', name: 'React', level: 'Avançado', count: 80},
-    {logo: 'logo-nodejs', name: 'NodeJs', level: 'Intermediário', count: 70},
-    {logo: 'logo-python', name: 'Python', level: 'Básico', count: 15},
-    {logo: 'logo-firebase', name: 'Firebase', level: 'Básico', count: 55},
-    {logo: 'logo-pwa', name: 'PWA', level: 'Básico', count: 85},
-  ]
 
   return (
     <section id='skills' className='py-10 relative'>

@@ -2,7 +2,7 @@ import React from 'react'
 
 import avatar from '../assets/images/avatar-2.png'
 
-import curriculo from '../assets/Curriculo_MatheusOrozimbo.pdf'
+import curriculo from '../assets/Curriculo_MatheusOrozimbo_Oficial.pdf'
 
 const About = () => {
   const info = [
@@ -21,7 +21,7 @@ const About = () => {
           <div className='p-2'>
             <div className='text-teal-800 my-3'>
               <p className='text-justify leading-7 w-full lg:w-10/12'>
-                Olá! Sou um desenvolvedor front-end dedicado a transformar conceitos em experiências digitais envolventes. Com habilidades em HTML, CSS e JavaScript, busco a harmonia entre design e funcionalidade. Explore meu portfólio e descubra como contribuo para a criação de interfaces intuitivas e visualmente impactantes.
+                Olá! Sou um desenvolvedor full stack especializado em criar experiências digitais envolventes. No front-end, trabalho com React.js, Next.js, Vite.js, HTML, CSS e SASS para produzir interfaces intuitivas e visualmente impactantes. No back-end, tenho experiência em Node.js, Flask e Django, e trabalho com bancos de dados como PostgreSQL, MongoDB, MySQL e Firebase para garantir soluções robustas e escaláveis. Vamos transformar suas ideias em realidade digital juntos!
               </p>
             </div>
             <div className='flex items-center mt-10 gap-7'>

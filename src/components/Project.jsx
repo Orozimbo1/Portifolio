@@ -5,28 +5,9 @@ import { Pagination, Autoplay } from 'swiper'
 import 'swiper/css';
 import 'swiper/css/pagination'
 
-import project1 from '../assets/images/mr-os.jpg'
-import project2 from '../assets/images/React-Ecommerce.jpg'
-import project3 from '../assets/images/pokenext.jpg'
-import project4 from '../assets/images/react-miniblog.jpg'
-import project5 from '../assets/images/onlineshop.jpg'
-import project6 from '../assets/images/InvestFacil.png'
-import project7 from '../assets/images/youtube-clone.jpg'
-import project8 from '../assets/images/ageCalculator.jpg'
-import project9 from '../assets/images/electrum.png'
+import { projects } from '../utils'; 
 
 const Project = () => {
-  const projects = [
-    {img: project1, name: 'MR-OS', link_github: 'https://github.com/Orozimbo1/MR-OS', live_demo: 'https://mr-os.vercel.app/'},
-    {img: project2, name: 'React Ecommerce', link_github: 'https://github.com/Orozimbo1/React-Ecommerce', live_demo: 'http://react-ecommerce-livid.vercel.app'},
-    {img: project3, name: 'PokeNext', link_github: 'https://github.com/Orozimbo1/PokeNext', live_demo: 'https://poke-next-taupe.vercel.app/'},
-    {img: project4, name: 'MiniBlog', link_github: 'https://github.com/Orozimbo1/React-miniblog', live_demo: 'https://react-miniblog-blond.vercel.app/'},
-    {img: project5, name: 'Online Shop', link_github: 'https://github.com/Orozimbo1/OnlineShop', live_demo: 'https://online-shop-marketplace.vercel.app/'},
-    {img: project6, name: 'InvestFacil', link_github: 'https://github.com/Orozimbo1/InvestFacil', live_demo: 'https://investfacil.vercel.app/'},
-    {img: project7, name: 'Youtube Clone', link_github: 'https://github.com/Orozimbo1/YouTube_Clone', live_demo: 'https://youtubeclone-mo.netlify.app'},
-    {img: project8, name: 'Age Calculator', link_github: 'https://github.com/Orozimbo1/ageCaculator', live_demo: 'orozimbo1.github.io/ageCaculator/'},
-    {img: project9, name: 'Electrum Ecommerce', link_github: 'https://github.com/Orozimbo1/electrum', live_demo: 'https://orozimbo1.github.io/electrum/'}
-  ]
 
   return (
     <section id='projects' className='py-10 text-teal-700'>
